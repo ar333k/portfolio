@@ -1,3 +1,3 @@
-## My Portfolio
+# My Portfolio
 
-# Built using Svelte, Tailwind.
+## Built using Svelte, Tailwind.
