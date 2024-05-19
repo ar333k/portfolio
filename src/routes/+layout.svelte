@@ -1,12 +1,17 @@
 <script>
     import "../app.css";
-    import Footer from "../components/Footer.svelte";
     import Header from "../components/Header.svelte";
+    import Footer from "../components/Footer.svelte";
   </script>  
 
 
- <div> 
+ <div class=""> 
+  
   <Header />
-  <slot />
-  <Footer />
  </div> 
+ 
+ <slot />
+
+ <div>
+  <Footer />
+ </div>
