@@ -8,6 +8,11 @@
       font-display: swap;
       src: url(/fonts/VT323-Regular.ttf);
     }
+    @font-face {
+      font-family: 'DJ';
+      font-display: swap;
+      src: url(/fonts/DJGROSS.ttf);
+    }
   }
 
 html {

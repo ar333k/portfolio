@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "VT": ["VT323", "sans-serif"]
+        "VT": ["VT323", "sans-serif"],
+        "DJ": ["DJ", "sans-serif"],
       },
     },
   },
