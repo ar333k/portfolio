@@ -16,7 +16,7 @@ let tabs = [
     <div class="px-12">
         <img class="" src={"images/haunter.gif"} alt="">
     </div>
-    <div class="flex items-center justify-center text-center gap-x-20 px-12 mr-44 text-xl">
+    <div class="flex items-center justify-center text-center gap-x-20 px-12 mr-44 text-xl font-DJ">
         {#each tabs as tab, index}
             <a href={tab.link}>
                 <p>{tab.name}</p>
