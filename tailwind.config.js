@@ -2,10 +2,11 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
-    fontFamily: {
-      "VT": ["VT323", "sans-serif"]
-    }
+    extend: {
+      fontFamily: {
+        "VT": ["VT323", "sans-serif"]
+      },
+    },
   },
   plugins: [],
 }
