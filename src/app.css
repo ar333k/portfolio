@@ -30,3 +30,52 @@ html {
     5px 0 8px rgba(160, 35, 177, 0.1),
     -5px 0 8px rgba(160, 35, 177, 0.1);
 }
+
+@keyframes cursor {
+  5% {
+    text-shadow:
+      0 0 0px rgba(160, 35, 177, 0.4),
+      0 0 1px rgba(160, 35, 177, 1),
+      0 0 2px rgba(160, 35, 177, 0.5),
+      3px 0 6px rgba(160, 35, 177, 0.3),
+      -3px 0 6px rgba(160, 35, 177, 0.3),
+      5px 0 8px rgba(160, 35, 177, 0.1),
+      -5px 0 8px rgba(160, 35, 177, 0.1);
+  }
+  45% {
+    text-shadow:
+      0 0 0px rgba(160, 35, 177, 0.4),
+      0 0 1px rgba(160, 35, 177, 1),
+      0 0 2px rgba(160, 35, 177, 0.5),
+      3px 0 6px rgba(160, 35, 177, 0.3),
+      -3px 0 6px rgba(160, 35, 177, 0.3),
+      5px 0 8px rgba(160, 35, 177, 0.1),
+      -5px 0 8px rgba(160, 35, 177, 0.1);
+  }
+  55% {
+    text-shadow:
+      0 0 0px rgba(160, 35, 177, 0),
+      0 0 1px rgba(160, 35, 177, 0),
+      0 0 2px rgba(160, 35, 177, 0);
+  }
+  95% {
+    text-shadow:
+      0 0 0px rgba(160, 35, 177, 0),
+      0 0 1px rgba(160, 35, 177, 0),
+      0 0 2px rgba(160, 35, 177, 0);
+  }
+  }
+    
+  .cursor {
+    display: inline-block;
+    position: relative;
+    top: 0.05em;
+    left: -0.05em;
+    transform : scale(0.7,0.8);
+    -webkit-animation-name: cursor;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: cursor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
